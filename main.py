@@ -46,6 +46,12 @@ df = df.drop(
   axis=1
 )
 
+df["languages"] = df["languages"].replace({
+  "['id']": "Bahasa Indonesia",
+  "['en']": "English",
+  "['en-US']": "English (US)",
+})
+
 # Filter data:
 # - skip jika kolom episodeName kosong atau ada value yang diabaikan
 # - skip jika kolom description kosong
