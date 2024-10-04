@@ -50,6 +50,7 @@ df["languages"] = df["languages"].replace({
   "['id']": "Bahasa Indonesia",
   "['en']": "English",
   "['en-US']": "English (US)",
+  "['ar']": "Arabic"
 })
 
 # Filter data:
