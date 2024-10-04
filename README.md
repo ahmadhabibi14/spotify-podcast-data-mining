@@ -8,3 +8,10 @@ Saya melakukan 3 metode pada tugas ini yaitu:
 - Data Reduction
 - Data Cleaning
 - Data Transformation
+
+## Get Started
+- Download dulu datasetnya pada link [berikut](https://www.kaggle.com/datasets/daniilmiheev/top-spotify-podcasts-daily-updated)
+- Simpan file datasetnya pada folder ini dengan nama `top_podcasts_raw.csv`
+- Buat python environment dengan menggunakan perintah `python -m venv .venv`
+- Install dependency, menggunakan perintah `pip install -r requirements.txt`
+- Jalankan programnya: `python main.py`
